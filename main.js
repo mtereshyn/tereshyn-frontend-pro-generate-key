@@ -1,5 +1,5 @@
 function generateKey(length, characters) {
-  if (length < 1) return "Length < 1";
+  if (length < 1) return "length < 1";
   let result = "";
 
   while (length) {
